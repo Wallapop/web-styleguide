@@ -1,0 +1,27 @@
+/*
+** Bootstrap breakpoints
+** Use @include breakpoint-sm {...} in your project
+*/
+@mixin breakpoint-sm {
+  @media (min-width: 576px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-md {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-lg {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-xl {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
