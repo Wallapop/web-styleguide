@@ -1,4 +1,5 @@
 $wallie: 'Wallie';
+$creditCardFont:  'OCRAStd';
 $font-weight-chunky: 700;
 $font-weight-skinny: 300;
 
@@ -17,4 +18,12 @@ $font-weight-skinny: 300;
   font-family: $wallie;
   src: url("http://d22j03ecumputt.cloudfront.net/fonts/Wallie-Chunky.woff2") format("woff2"), url("http://d22j03ecumputt.cloudfront.net/fonts/Wallie-Chunky.woff") format("woff"), url("http://d22j03ecumputt.cloudfront.net/fonts/Wallie-Chunky.ttf") format("truetype");
   font-weight: $font-weight-chunky;
+}
+
+@font-face {
+  font-family: 'OCRAStd';
+  src: url('http://d22j03ecumputt.cloudfront.net/fonts/OCRAStd.eot?#iefix') format('embedded-opentype'),  url('http://d22j03ecumputt.cloudfront.net/fonts/OCRAStd.otf')  format('opentype'),
+  url('http://d22j03ecumputt.cloudfront.net/fonts/OCRAStd.woff') format('woff'), url('http://d22j03ecumputt.cloudfront.net/fonts/OCRAStd.ttf')  format('truetype'), url('http://d22j03ecumputt.cloudfront.net/fonts/OCRAStd.svg#OCRAStd') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
