@@ -2,17 +2,20 @@
   font-family: $wallie;
   src: url("//d22j03ecumputt.cloudfront.net/fonts/Wallie-Skinny.woff2") format("woff2"), url("//d22j03ecumputt.cloudfront.net/fonts/Wallie-Skinny.woff") format("woff"), url("//d22j03ecumputt.cloudfront.net/fonts/Wallie-Skinny.ttf") format("truetype");
   font-weight: $font-weight-skinny;
+  font-display: fallback;
 }
 
 @font-face {
   font-family: $wallie;
   src: url("//d22j03ecumputt.cloudfront.net/fonts/Wallie-Fit.woff2") format("woff2"), url("//d22j03ecumputt.cloudfront.net/fonts/Wallie-Fit.woff") format("woff"), url("//d22j03ecumputt.cloudfront.net/fonts/Wallie-Fit.ttf") format("truetype");
+  font-display: fallback;
 }
 
 @font-face {
   font-family: $wallie;
   src: url("//d22j03ecumputt.cloudfront.net/fonts/Wallie-Chunky.woff2") format("woff2"), url("//d22j03ecumputt.cloudfront.net/fonts/Wallie-Chunky.woff") format("woff"), url("//d22j03ecumputt.cloudfront.net/fonts/Wallie-Chunky.ttf") format("truetype");
   font-weight: $font-weight-chunky;
+  font-display: fallback;
 }
 
 @font-face {
@@ -21,4 +24,5 @@
   url('//d22j03ecumputt.cloudfront.net/fonts/OCRAStd.woff') format('woff'), url('//d22j03ecumputt.cloudfront.net/fonts/OCRAStd.ttf')  format('truetype'), url('//d22j03ecumputt.cloudfront.net/fonts/OCRAStd.svg#OCRAStd') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: fallback;
 }
