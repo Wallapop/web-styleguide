@@ -19,6 +19,26 @@
 }
 
 @font-face {
+  font-family: $grenette;
+  src: url("//d22j03ecumputt.cloudfront.net/fonts/GrenettePro-Light.ttf") format("truetype");
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: $grenette;
+  src: url("//d22j03ecumputt.cloudfront.net/fonts/GrenettePro-SemiBold.ttf") format("truetype");
+  font-weight: $font-weight-semi-bold;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: $grenette;
+  src: url("//d22j03ecumputt.cloudfront.net/fonts/GrenettePro-Black.ttf") format("truetype");
+  font-weight: $font-weight-black;
+  font-display: fallback;
+}
+
+@font-face {
   font-family: 'OCRAStd';
   src: url('//d22j03ecumputt.cloudfront.net/fonts/OCRAStd.eot?#iefix') format('embedded-opentype'),  url('//d22j03ecumputt.cloudfront.net/fonts/OCRAStd.otf')  format('opentype'),
   url('//d22j03ecumputt.cloudfront.net/fonts/OCRAStd.woff') format('woff'), url('//d22j03ecumputt.cloudfront.net/fonts/OCRAStd.ttf')  format('truetype'), url('//d22j03ecumputt.cloudfront.net/fonts/OCRAStd.svg#OCRAStd') format('svg');
