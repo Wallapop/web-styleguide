@@ -1,0 +1,33 @@
+@import '_spacing.scss';
+
+$topbar-height: 106px;
+$left-panel-width: 340px;
+$right-panel-width: 340px;
+$tabbar-height: 64px;
+
+$sidebar-width: 216px;
+$sidebar-collapsed-width: 65px;
+
+$chat-topbar-height: 103px;
+$chat-input: 70px;
+
+$scrollbars-width: 6px;
+
+$item-avatar-size-small: 40px;
+$item-avatar-size-medium: 50px;
+$item-avatar-size: 60px;
+$item-avatar-size-big: 80px;
+$item-avatar-size-bigger: 99px;
+$item-avatar-size-profile: 104px;
+$item-avatar-size-l: 140px;
+$item-avatar-size-xl: 150px;
+$item-avatar-margin: $spacing-ms;
+$item-avatar-space: $item-avatar-size + $item-avatar-margin;
+
+$upload-form-width: 700px;
+
+$duration-table-col-width: 198px;
+$duration-table-col-width-md: 130px;
+
+$subscription-footer-height: 130px;
+$topbar-height-sm: 66px;
